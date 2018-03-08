@@ -315,13 +315,13 @@ module URI
     #
     # :call-seq:
     #   unescape( str )
-    #   unescape( str, unsafe )
+    #   unescape( str, escaped )
     #
     # == Args
     #
     # +str+::
     #    String to remove escapes from
-    # +unsafe+::
+    # +escaped+::
     #    Regexp to apply. Defaults to self.regexp[:ESCAPED]
     #
     # == Description
